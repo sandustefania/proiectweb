@@ -1,1 +1,78 @@
-h3{color:rgb(203, 90, 90);}
+body {
+    margin: 0px;
+    padding-top: 70px;
+}
+.header{
+    height: 70px;
+    top: 0;
+    width: 100%;
+    position: fixed; 
+    background-color: white;
+    border-bottom: 5px;
+    border-color: rgb(26, 25, 25);     
+    border-bottom-style: solid;  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.logo{
+    padding-left: 30px;
+}
+.linkHeader{
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+    font-family: 'Source Serif Pro', serif;
+    align-self: center;
+    justify-self: center;
+}
+.logButton{
+    border: 2px solid #5aa53f;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+.underHeader{
+    background-image: url("images/imgUndHeader.jpg");
+    height: 400px;
+    display: grid;
+}
+.messageUnderHeader{
+    font-size: 50px;
+    color: white;   
+    align-self: center;
+    justify-self: center;
+    font-family: 'Source Serif Pro', serif;
+    border: 2px solid;
+    border-color: #cdcbcb3d;
+    padding: 15px;
+}
+.description_container{
+    background-image: url("images/backgroundImage2.jpg");
+}
+.description{
+    padding: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.aboutTitle{
+    color: #5aa53f;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.descriptionTitle{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(26, 25, 25);
+    padding-bottom: 10px;
+}
+.descriptionItem{
+    border: 2px solid;
+    border-color: #cdcbcb3d;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+li {
+    list-style-type: none;
+    padding:5px 15px;
+    color: rgb(26, 25, 25);
+  }
